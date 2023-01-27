@@ -33,3 +33,23 @@
 - probability distribution - a function that takes in an outcome and outputs the probaility of that particular outcome occuring
 - gaussian distribution - very common type of probability distribution which fits many real world observations; also called a normal distribution
 - uniform distribution - probability distribution in which each outcome is equally likely; for example, rolling a normal six-sided die
+
+### Naive Bayes
+
+- model - an appromixation of a relationship between an input and an output
+- heuristic - an approach to finding a solution which is typically faster but less accurate than some optimal solution
+- bernoulli distribution - a distribution which evaluates particular outcome as binary
+    - example - a word was either in a message or not in a message (binary representation)
+- prior - indicates the probability of a particular class regardless of the features of some examples
+- likelihood - probability of some features given a particular class
+- evidence - denominator of the naive bayes classifier
+- posterior - probability of a class given some features
+- vocabulary - list of words that naive bayes recognizes
+- laplace smoothing - type of additive smoothing which mitigages the chance of encountering zero probabilities within the naive bayes classifier
+- tokenization - splitting of some raw textual input into individual words or elements
+- featurization - process of transforming raw inputs into something a model can perform training and predictions on
+- vectorizer - used in a step of featurizing, transforms some input into something else
+    - example - binary vectorizer which transforms tokenized messages into a binary vector indicating which items in the vocabulary appear in the message
+- stop works - a word, typically discarded, which doesn't add much predictive value
+- stemming - removing the ending modifiers of words, leaving the stem of the word
+- lemmatization - a more calculated form of stemming which ensures the proper lemma results from removing the word modifiers
