@@ -53,3 +53,20 @@
 - stop works - a word, typically discarded, which doesn't add much predictive value
 - stemming - removing the ending modifiers of words, leaving the stem of the word
 - lemmatization - a more calculated form of stemming which ensures the proper lemma results from removing the word modifiers
+
+### Performance
+
+- decision point - cut-off point in which anything below the cutoff is determined to be a certain class and anything above the cutoff is the other class
+- accuracy - number of true positives plus the number of true negatives divided by the total number of examples
+- unbalanced classes - when one class is far more frequently observed than another class
+- model training - determining the model parameter values
+- confusion matrix - in the binary case, a 2x2 matrix indicating the number of true positives, true negatives, and false negatives
+- sensitivity - also recall, the proportion of true positives which are correctly classified
+- specificity - proportion of true negatives which are correctly classified
+- precision - number of true positives divided by the true positives plus the false positives
+- f1 score - harmonic mean of the precision and recall
+- validation - technique of holding out some portion of examples to be tested separately from the set of examples used to train the model
+- generalize - ability of a model to perform well on the test set as well as examples beyond the test set
+- receiver operator characteristic curve - ROC curve, is a plot of how the specificity and sensivity change as the decision threshold changes
+    - area under the ROC curve is the probability that a randomly chosen positive example will have a higher prediction probability of being positive than a randomly chosen negative example
+- hyperparameter - any parameter associated with a model which is not learned
